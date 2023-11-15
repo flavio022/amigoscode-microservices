@@ -1,0 +1,134 @@
+# Ignore arquivos e pastas gerados pelo sistema operacional
+.DS_Store
+Thumbs.db
+
+# Ignore arquivos temporários
+*~
+
+# Ignore arquivos de configuração específicos da IDE
+.idea/
+*.iml
+*.iws
+*.ipr
+/.vscode/
+
+# Ignore logs
+*.log
+log/
+logs/
+
+# Ignore arquivos compilados Java
+*.class
+
+# Ignore arquivos de compilação e construção do Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
+mvnw
+mvnw.cmd
+
+# Ignore arquivos específicos do Eclipse
+.metadata/
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+.recommenders
+.externalToolBuilders/
+*.launch
+*.pydevproject
+.cproject
+.autotools
+.factorypath
+.buildpath
+.target
+.tern-project
+.texlipse
+.springBeans
+.recommenders/
+.apt_generated/
+.cache-main
+.scala_dependencies
+.worksheet
+
+# Ignore arquivos específicos do Spring Tool Suite (STS)
+.sts4-cache/
+
+# Ignore arquivos específicos do Git
+*.orig
+*.BACKUP.*
+*.BASE.*
+*.LOCAL.*
+*.REMOTE.*
+*_BACKUP_*.txt
+*_BASE_*.txt
+*_LOCAL_*.txt
+*_REMOTE_*.txt
+
+# Ignore arquivos e pastas específicos do Windows
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Ignore arquivos específicos do NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# Ignore arquivos específicos do Gradle
+.gradle/
+
+# Ignore arquivos específicos do Sublime Text
+*.sublime-*
+
+# Ignore arquivos específicos do Exercism
+.exercism
+
+# Ignore arquivos específicos do Eclipse JDT
+.classpath
+.project
+
+# Ignore arquivos específicos do Scala IDE
+.scala_dependencies
+
+# Ignore arquivos específicos do BlueJ
+*.ctxt
+
+# Ignore arquivos específicos do Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Ignore arquivos específicos do IntelliJ IDEA
+*.ipr
+*.iws
+*.iml
+.idea/
+
+# Ignore arquivos específicos do Python
+*.pyc
+__pycache__/
+
+# Ignore arquivos específicos do Visual Studio Code
+.vscode/
+
+# Configurações específicas do Spring Boot e Maven para módulos
+/fraud/target/
+/customer/target/
+/eureka-service/target/
